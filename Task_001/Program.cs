@@ -21,14 +21,27 @@
 // На выходе:
 // числа равны
 
+// Console.WriteLine("Введите целое число и нажмите Enter: ");
+// int firstNumber = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите еще одно целое число и нажмите Enter: ");
+// int secondNumber = Convert.ToInt32(Console.ReadLine());
+// 
+// if (firstNumber > secondNumber)
+    // Console.WriteLine("первое число больше");
+// if (firstNumber < secondNumber)
+    // Console.WriteLine("второе число больше");
+// if (firstNumber == secondNumber)
+    // Console.WriteLine("числа равны");
+
+
 Console.WriteLine("Введите целое число и нажмите Enter: ");
 int firstNumber = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите еще одно целое число и нажмите Enter: ");
 int secondNumber = Convert.ToInt32(Console.ReadLine());
 
 if (firstNumber > secondNumber)
-    Console.WriteLine("первое число больше");
+    Console.WriteLine($"max = {firstNumber}, min = {secondNumber}");
 if (firstNumber < secondNumber)
-    Console.WriteLine("второе число больше");
+    Console.WriteLine($"max = {secondNumber}, min = {firstNumber}");
 if (firstNumber == secondNumber)
     Console.WriteLine("числа равны");
